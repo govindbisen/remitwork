@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: rgb(224, 224, 230);
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    width: 90vw;
+    /* left: 20%; */
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    flex-wrap: wrap;
+}
+
+.name{
+ display:flex;
+ flex-direction: column;
+}
+.name>input{
+min-width: none;
+}
+
+.left{
+    background-color: white;
+    width:45%;
+    height:400px;
+
+}
+
+
+.right{ 
+    padding:4%;
+    width:45%;
+    background-color: white;
+
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: small;
+    padding: .5rem;
+}
